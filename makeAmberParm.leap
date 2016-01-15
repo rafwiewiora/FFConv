@@ -1,0 +1,4 @@
+source leaprc.ff14SB
+x = loadPdb villin.pdb
+saveAmberParm x ff14SB.top ff14SB.crd
+quit
